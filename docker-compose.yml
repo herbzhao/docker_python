@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  docker_test:
+    image: docker_test
+    build: .
+    ports:
+      - 3000:3000
